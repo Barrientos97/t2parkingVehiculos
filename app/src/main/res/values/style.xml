@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- styles.xml -->
+    <style name="vehicle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="registration">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="ingrese_la_">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#6F6F6F</item>
+    </style>
+
+    <style name="agregar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#5E4C88</item>
+    </style>
+
+    <style name="tipo_de_veh">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#6B6B6B</item>
+    </style>
+
+    <style name="ButtonTextStyle">
+        <item name="android:textSize">@dimen/normal_button_text_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="SecondaryButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">#5E4C88</item>
+        <item name="android:textAppearance">@style/ButtonTextStyle</item>
+    </style>
+
+    <style name="PrimaryEditTextStyle">
+        <item name="android:textSize">@dimen/text_size_h3</item>
+        <item name="android:textColor">@color/t2p_black_color</item>
+        <item name="android:textColorHint">@color/t2p_dark_grey_color</item>
+        <item name="android:background">@drawable/input_text_shape</item>
+        <item name="android:paddingStart">@dimen/padding_normal</item>
+        <item name="android:paddingEnd">@dimen/padding_normal</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="PrimarySpinnerStyle">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/text_size_h3</item>
+        <item name="android:textColor">@color/t2p_black_color</item>
+        <item name="android:background">@drawable/input_text_shape</item>
+        <item name="android:paddingStart">@dimen/padding_normal</item>
+        <item name="android:paddingEnd">@dimen/padding_normal</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="TertiaryButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/btn_tertiary_color</item>
+        <item name="android:textAppearance">@style/ButtonTextStyle</item>
+        <item name="android:textSize">@dimen/tertiary_button_text_size</item>
+    </style>
+
+
+    <style name="establecer_">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#6B6B6B</item>
+    </style>
+
+
+    <style name="etiqueta">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="uruguay">
+        <item name="android:textSize">7sp</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="lfa2022">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="chevrolet">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#707070</item>
+    </style>
+
+    <style name="remove_plaque">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FB6161</item>
+    </style>
+
+    <style name="want_to_delete">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="cancel">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#9F9F9F</item>
+    </style>
+
+    <style name="TextNotOptionalStyle">
+        <item name="android:textColor">@color/t2p_red_color</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/text_size_h5</item>
+    </style>
+
+    <style name="confirm">
+        <item name="android:textColor">@color/t2p_white_color</item>
+        <item name="android:textAppearance">@style/ButtonTextStyle</item>
+        <item name="android:background">@drawable/rectangle_3</item>
+    </style>
+    <style name="error">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">#6F6F6F</item>
+    </style>
+    <style name="usuario_o_c">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">#A8A8A8</item>
+    </style>
+</resources>

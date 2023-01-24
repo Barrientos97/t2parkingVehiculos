@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:state_enabled="true">
+        <ripple android:color="@color/red_dark_btn_primary_ripple">
+            <item android:id="@android:id/background">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/btn_primary_color" />
+                    <corners android:radius="6dp" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+    <item android:id="@android:id/background" android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/red_btn_disable" />
+            <corners android:radius="6dp" />
+        </shape>
+    </item>
+</selector>

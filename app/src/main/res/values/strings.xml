@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">matricula de vehiculo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="vehicle">Vehículos</string>
+    <string name="plate_info_hint">Ingrese la matrícula de su vehículo y una etiqueta para identificarla.</string>
+    <string name="add">Agregar</string>
+    <string name="plate_info_plate_txt">\tMatrícula</string>
+    <string name="plate_info_tag_txt">\tEtiqueta (Opcional)</string>
+    <string name="plate_info_plate_id_txt">\tN° Padrón (Opcional)</string>
+    <string name="plate_info_vehicle_type_txt">\tTipo de vehículo</string>
+    <string name="default_settings">Establecer como predeterminada</string>
+    <string name="back_btn">&lt;&#160;&#160;&#160;Atrás</string>
+    <string name="next_btn">Siguiente&#160;&#160;&#160;&gt;</string>
+    <string name="save_btn">Guardar&#160;&#160;&#160;&gt;</string>
+    <string name="add_btn">Agregar&#160;&#160;&#160;&gt;</string>
+    <string name="validate_btn">Validar</string>
+    <string name="uruguay">URUGUAY</string>
+    <string name="lfa2022">LFA2022</string>
+    <string name="label">Chevrolet</string>
+
+    <string name="SCRIPT">-</string>
+    <string name="delete_vehicle">Eliminar vehículo</string>
+    <string name="loading_msg">Cargando…</string>
+    <string name="vehicle_type_title">Tipo de vehículo</string>
+    <string name="vehicle_type_car">Auto</string>
+    <string name="vehicle_type_moto">Moto</string>
+    <string name="vehicle_type_suv">Utilitario</string>
+
+    <string-array name="vehicle_type_array">
+        <item>@string/vehicle_type_title</item>
+        <item>@string/vehicle_type_car</item>
+        <item>@string/vehicle_type_moto</item>
+        <item>@string/vehicle_type_suv</item>
+    </string-array>
+
+    <string name="set_as_default">Establecer como predeterminada</string>
+    <string name="Cancel">Cancelar</string>
+    <string name="plate_info_wrong_plate_message">Matrícula incorrecta</string>
+    <string name="message_to_delete_vehicle">¿Desea eliminar este vehículo?</string>
+    <string name="message_for_text_predetermined">No se puede eliminar la matrícula por defecto, selecciona otra previamente.</string>
+    <string name="Obligatory_field">*Campo obligatorio</string>
+    <string name="confirm">Confirmar</string>
+    <string name="close">Cerrar</string>
+    <string name="error">Error</string>
+    <string name="message_for_add_new_plate_text">La matrícula que intenta ingresar ya fue ingresada anteriormente.</string>
+    <string name="message_for_update_plate_text">La matrícula que intenta modificar ya fue ingresada anteriormente.</string>
+</resources>

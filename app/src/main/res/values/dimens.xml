@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common dimensions -->
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_extra_small">4dp</dimen>
+    <dimen name="margin_extra_extra_small">2dp</dimen>
+    <dimen name="margin_medium">24dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_extra_large">64dp</dimen>
+    <dimen name="margin_extra_extra_large">96dp</dimen>
+
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+
+    <dimen name="corner_radius">8dp</dimen>
+
+    <!-- Text dimensions -->
+    <dimen name="text_size_h1">24sp</dimen>
+    <dimen name="text_size_h2">22sp</dimen>
+    <dimen name="text_size_h3">16sp</dimen>
+    <dimen name="text_size_h4">12sp</dimen>
+    <dimen name="text_size_h5">10sp</dimen>
+    <dimen name="text_size_h6">8sp</dimen>
+    <dimen name="text_step_size">14sp</dimen>
+
+    <!-- Button dimensions -->
+    <dimen name="normal_button_text_size">20sp</dimen>
+    <dimen name="tertiary_button_text_size">14sp</dimen>
+
+</resources>

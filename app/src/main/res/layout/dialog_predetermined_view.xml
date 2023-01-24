@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="394dp"
+        android:layout_height="327dp"
+        android:orientation="vertical"
+        app:cardCornerRadius="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="60dp"
+                android:layout_height="6dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/ic_baseline_remove"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/title_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal|top"
+                android:text="@string/error"
+                android:textAppearance="@style/error"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/error_imgView" />
+
+            <TextView
+                android:id="@+id/message_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal|top"
+                android:textAppearance="@style/usuario_o_c"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title_txt" />
+
+            <Button
+                android:id="@+id/close_btn"
+                style="@style/confirm"
+                android:layout_width="324dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/close"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/message_txt"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/error_imgView"
+                android:layout_width="105dp"
+                android:layout_height="91dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView"
+                app:srcCompat="@drawable/ic_alerg_error" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
