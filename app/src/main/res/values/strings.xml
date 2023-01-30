@@ -45,4 +45,7 @@
     <string name="error">Error</string>
     <string name="message_for_add_new_plate_text">La matrícula que intenta ingresar ya fue ingresada anteriormente.</string>
     <string name="message_for_update_plate_text">La matrícula que intenta modificar ya fue ingresada anteriormente.</string>
+    <string name="zonas">Zonas</string>
+    <string name="en_las_sigu">En las siguientes zonas puedes utilizar los servicios de T2Parking.Selecciona la que mas frecuentes.</string>
+    <string name="montevideo">Montevideo</string>
 </resources>
