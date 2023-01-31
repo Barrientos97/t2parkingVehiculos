@@ -9,7 +9,7 @@ import com.example.matriculadevehiculo.modelos.Country
 @Dao
 interface CountryDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    fun getList(Show:List<Country>)
+    fun getList(country:List<Country>)
 
     @Query("select * from table_country")
     fun listCountry():List<Country>
